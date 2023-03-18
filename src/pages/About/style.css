@@ -1,0 +1,22 @@
+.content {
+    padding: 15px 20px;
+    border: 1px solid #ff0033;
+}
+
+.pill {
+    margin-top: 30px;
+}
+
+.pill h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.pill p, .pill pre {
+    line-height: 1.8em;
+}
+
+.content > pre {
+    white-space: pre-wrap;
+}

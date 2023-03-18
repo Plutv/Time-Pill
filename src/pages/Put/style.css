@@ -1,0 +1,89 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.page-header {
+    font-size: 20px;
+    border-bottom: 0 solid #9CF;
+    padding: 0 0 7px 0;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 28px;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+form label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.main > form > input, textarea, select {
+    margin-right: 4px;
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #D9D9D9;
+    border-top: 1px solid silver;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* .main > form > textarea {
+    width: 100%;
+} */
+
+form input, textarea, select {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.tips {
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+}
+
+.tips {
+    padding: 0;
+    margin: 0;
+    color: #999;
+}
+
+.container .main {
+    width: 690px;
+    float: left;
+    padding-bottom: 60px;
+}
+
+input[type="button"], input[type="submit"], button, .btn, .pagination a {
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #39E;
+    background: -moz-linear-gradient(#39E,#2389de);
+    background: -webkit-linear-gradient(#39E,#2389de);
+    border: 1px solid #39E;
+    color: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+input[type="button"], input[type="submit"], button, .btn {
+    background: #ff0033;
+    filter: none;
+    border: 1px solid #ff0033;
+    color: #fff;
+}

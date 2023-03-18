@@ -1,0 +1,78 @@
+.header {
+    background-color: #FAFAFA;
+    background-image: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
+    background: -moz-linear-gradient(#FFFFFF,#F2F2F2);
+    background: -webkit-linear-gradient(#FFFFFF,#F2F2F2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffFFFFFF',endColorstr='#ffF2F2F2')";
+    filter: alpha(opacity=99);
+    -moz-opacity: .99;
+    opacity: 0.99;
+    border-bottom: 1px solid #d3d3d3;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 5px #ccc;
+    overflow: visible;
+}
+
+.header .container {
+    overflow: visible;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header .logo {
+    float: left;
+    line-height: 38px;
+    padding: 0 20px 0 45px;
+    font-size: 18px;
+    background: url(../../../public/logo.gif) no-repeat scroll 0px 10px transparent;
+    color: #666;
+}
+
+.header .nav {
+    float: left;
+    font-weight: bold;
+    overflow: visible;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.header .nav li {
+    float: left;
+    display: block;
+}
+
+.header .nav li a,  .header .nav li div{
+    display: block;
+    line-height: 38px;
+    padding: 0 14px 0 14px;
+    margin: 0 1px 0 1px;
+    color: #777;
+}
+
+.header .nav-user {
+    float: right;
+}
+
+.header .nav li a:hover, .header .nav li div:hover {
+    cursor: pointer;
+    color: #333;
+    background-color: transparent;
+}
+
+.header .nav li.active div {
+    background-color: #E5E5E5;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 13%) inset;
+    color: #555555;
+}
